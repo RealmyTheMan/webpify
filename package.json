@@ -1,11 +1,11 @@
 {
-  "name": "webpify",
+  "name": "webpinator",
   "description": "A CLI tool to convert convert a directory of image files to WEBP.",
   "module": "index.ts",
   "version": "0.1.0",
   "type": "module",
   "bin": {
-    "webpify": "./index.ts"
+    "webpinator": "./index.ts"
   },
   "license": "MIT",
   "dependencies": {

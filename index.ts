@@ -9,10 +9,10 @@ import fs from "node:fs/promises";
 const WORKING_DIRECTORY = process.cwd();
 const ACCEPTED_FILE_REGEX = /\.(jpe?g|png|gif|bmp|tiff|webp|avif)$/i;
 
-console.log(`webpify`.cyan.bold);
+console.log(`webpinator`.cyan.bold);
 
 program
-  .name("webpify")
+  .name("webpinator")
   .description(
     "A CLI tool to convert convert a directory of image files to WEBP."
   )
