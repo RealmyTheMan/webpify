@@ -2,7 +2,7 @@
   "name": "webpinator",
   "description": "A CLI tool to convert convert a directory of image files to WEBP.",
   "module": "index.ts",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "bin": {
     "webpinator": "./index.ts"

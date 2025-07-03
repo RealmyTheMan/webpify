@@ -57,7 +57,11 @@ program
         );
 
       console.log(
-        `Converting all image files in "${inputDir.bold}" to lossless WEBP`.blue
+        `Converting all image files in "${inputDir.bold}" to WEBP in "${
+          outputDir.bold
+        }" with quality ${
+          quality === 101 ? "lossless".bold : quality.toString().bold
+        }`.blue
       );
 
       const entries = await fs.readdir(inputDir, {
