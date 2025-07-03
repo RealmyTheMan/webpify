@@ -14,7 +14,7 @@ console.log(`webpify`.cyan.bold);
 program
   .name("webpify")
   .description(
-    "Tool to convert an entire directory of images to lossless WEBP."
+    "A CLI tool to convert convert a directory of image files to WEBP."
   )
   .option(
     "-i, --input <string>",
